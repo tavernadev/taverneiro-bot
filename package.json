@@ -1,0 +1,27 @@
+{
+  "name": "taverneiro-bot",
+  "version": "0.1.0",
+  "main": "server.js",
+  "repository": "git@github.com:tavernadev/taverneiro-bot.git",
+  "author": {
+    "name": "Santiael",
+    "email": "rafaelsantiagods@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
