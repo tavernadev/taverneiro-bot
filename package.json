@@ -12,8 +12,12 @@
     "build": "tsc",
     "dev": "tsnd --respawn --transpile-only src/server.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
   "devDependencies": {
+    "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
     "eslint": "^7.12.1",
